@@ -1,0 +1,9 @@
+﻿{ 
+  "ServiceName": "getemployees",
+  "Urlsuffix": "",
+  "Connectionvalues": "",
+  "ContentType": "application/json",
+  "MethodType": "GET",
+  "RequestUrl": "https://jsonplaceholder.typicode.com",
+  "RequestBody": ""
+  }
