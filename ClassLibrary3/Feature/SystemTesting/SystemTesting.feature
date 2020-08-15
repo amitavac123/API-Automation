@@ -1,4 +1,4 @@
-﻿Feature: SpecFlowFeature1
+﻿Feature: SystemTesting
 
 @Test1
 Scenario: Get API respnse using given endpoint
@@ -15,14 +15,7 @@ Scenario: Get API respnse using given endpoint
 	  | name |Leanne Graham |
 	  | website | hildegard.org  |
 	Given I have "WELLSFARGO" client database details
-	Given I execute Select Query "query2"
-	Then verify from executed query
-      | ROW_NUMBER | COLUMN_NAME  | COLUMN_VALUE |
-      | 1          | Name         | ${EmpName}   |
-	   | 1          | department         | Account   |
-     Then I verify fields in database
-	  | Name | department | designation |
-	  |  ${EmpName}  | Account | Accountant |
+	
 
 @Test2
 Scenario: Post createuser API respnse using given endpoint

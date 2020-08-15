@@ -137,6 +137,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyInfo1.cs" />
     <Compile Include="Steps\APISteps.cs" />
     <Compile Include="GlobalVeriableClass.cs" />
     <Compile Include="Hooks.cs" />
@@ -156,8 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Feature\Regression\RegressionTesting.feature" />
     <None Include="packages.config" />
-    <None Include="Feature\FeatureJsonObject\SpecFlowJasonObj.feature" />
+    <None Include="Feature\SystemTesting\SystemTesting.feature" />
     <None Include="ServiceDetailsJSONString\createuser.Json" />
     <None Include="ServiceDetailsJSONString\getemployees.json" />
   </ItemGroup>
