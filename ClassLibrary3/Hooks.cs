@@ -28,7 +28,7 @@ namespace ClassLibrary3
         [BeforeTestRun]
         public static void BeforeTestRun()
         {
-            _extentHtmlReporter = new ExtentHtmlReporter(@"C:\\Newfolder\\aaa.html");
+           // _extentHtmlReporter = new ExtentHtmlReporter(@"C:\\Newfolder\\aaa.html");
             _extentReports = new ExtentReports();
             _extentReports.AttachReporter(_extentHtmlReporter);
         }
