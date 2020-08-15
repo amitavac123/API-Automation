@@ -15,7 +15,7 @@ namespace ClassLibrary3
     public sealed class Hooks
     {
         private static ScenarioContext _scenarioContext;
-        //private static FeatureContext _featureContext;
+        private static FeatureContext _featureContext;
         private static ExtentReports _extentReports;
         private static ExtentHtmlReporter _extentHtmlReporter;
         private static ExtentTest _feature;
